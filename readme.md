@@ -3,7 +3,7 @@
 # Portfolio Website Project
 ### Mobile design (First milestone)
 
-> This is the first milestone of the portfolio website project. This is not an actual mobile website. It's just a mobile-like mock-up based on the figma design we were provied. The project will grow to a actual portfolio website someday. 
+> This is the first milestone of the portfolio website project. This is not an actual mobile website. It's just a mobile-like mock-up based on the figma design we were provided. The project will grow to an actual portfolio website someday. 
 
 > One thing I want to share about the CSS. Back in 2017, I was learning flex-box for the first time. The I tried to build my own lighweight CSS famework based on flex-box. That project help me lot. I used many helper classes from that stylesheet here. That piece of code is open source, anyone can use that. I named it "Flexy Framework". The link is given below.
 
