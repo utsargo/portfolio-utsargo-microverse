@@ -22,8 +22,21 @@ body * {
   font-family: Inter, sans-serif;
 }
 
+/* display properties */
 .display-flex {
   display: flex;
+}
+
+.display-flex-inline {
+  display: inline-flex;
+}
+
+.display-grid {
+  display: grid;
+}
+
+.display-grid-inline {
+  display: inline-grid;
 }
 
 p,
@@ -94,7 +107,6 @@ h6 {
 }
 
 .down-arrow {
-  display: flex;
   flex-direction: row;
   justify-content: center;
   align-items: center;
