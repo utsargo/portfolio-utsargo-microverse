@@ -2,6 +2,7 @@
   --success: rgb(54 179 126 / 100%);
   --neutrals: rgb(23 43 77/100%) ffffff;
   --grey: #505f79;
+  --light-grey: #ebf0ee;
 }
 
 body {
@@ -82,15 +83,16 @@ h6 {
   width: 375px !important;
   padding: 0;
   border: 1px solid gray;
-  height: 702.12px;
+  min-height: 702.12px;
 }
 
+/* section-1 */
 .welcome {
   background-image: url("./assets/images/header-illsutration-mobile.svg");
   background-repeat: no-repeat;
   background-position: center;
   object-fit: cover;
-  height: 648px;
+  min-height: 648px;
   padding: 64px 24px;
 }
 
@@ -99,11 +101,23 @@ h6 {
   line-height: 28px;
 }
 
-.greetings {
+.greetings,
+.section-heading {
   font-size: 40px;
   line-height: 52px;
   font-weight: bold;
   margin: 5px !important;
+}
+
+.separator {
+  width: 48px;
+  height: 4px;
+  background-color: var(--success);
+  margin-bottom: 58px;
+}
+
+.separator-blank {
+  margin-bottom: 58px;
 }
 
 .down-arrow {
@@ -141,6 +155,134 @@ h6 {
 
 .social-links a:hover {
   color: var(--success);
+}
+
+/* section recent-works */
+.recent-works {
+  padding: 64px 24px;
+}
+
+.work-list,
+.vertical-grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: auto auto auto auto;
+  row-gap: 24px;
+}
+
+.card {
+  border: 1px solid #d0d9d4;
+  border-radius: 8px;
+  height: auto;
+}
+
+.card-about {
+  background-color: var(--light-grey);
+}
+
+.thumbnail {
+  width: 100%;
+  height: 252px;
+  object-fit: cover;
+  object-position: center;
+}
+
+.portfolio-text,
+.card-text {
+  padding: 16px;
+}
+
+.card-title {
+  font-size: 24px;
+  line-height: 32px;
+  font-weight: 600;
+}
+
+.categories {
+  list-style-type: none;
+  flex-wrap: wrap;
+  padding: 0;
+}
+
+.categories li {
+  margin: 8px;
+}
+
+.category {
+  transition: 500ms ease;
+  font-size: 12px;
+  font-weight: 600;
+  padding: 8px 12px;
+  line-height: 0;
+  text-decoration: none;
+  border-radius: 4px;
+}
+
+.about-me .category {
+  background-color: white;
+  color: var(--success);
+}
+
+.portfolio-item .category {
+  background-color: var(--light-grey);
+  color: var(--neutrals);
+}
+
+.about-me .category:hover {
+  background-color: var(--success);
+  color: white;
+}
+
+.portfolio-item .category:hover {
+  background-color: var(--success);
+  color: white;
+}
+
+.button {
+  border-radius: 4px;
+  font-size: 17px;
+  line-height: 24px;
+  padding: 12px;
+  text-align: center;
+  text-decoration: none;
+}
+
+.btn-primary {
+  background-color: var(--success);
+  color: white;
+  transition: 500ms ease;
+}
+
+.btn-primary:hover {
+  background-color: var(--light-grey);
+  border: 2px solid var(--grey);
+  color: var(--neutrals);
+}
+
+.about-me {
+  margin-top: 0;
+  background-image: url("./assets/images/about-me.png");
+  background-position: -59px -79px;
+  object-fit: cover;
+  padding: 64px 24px;
+  background-repeat: no-repeat;
+}
+
+.about-icons {
+  height: auto;
+  width: 100%;
+}
+
+.about-text {
+  margin-bottom: 72px;
+}
+
+.about-text .card-title {
+  margin: 16px 0;
+}
+
+.about-text .categories {
+  margin: 8px 0;
 }
 
 /* grids */
@@ -321,6 +463,10 @@ h6 {
 }
 
 /* ---Padding--- */
+.padding-0 {
+  padding: 0;
+}
+
 .padding-5 {
   padding: 5px;
 }
