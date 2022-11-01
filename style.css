@@ -303,7 +303,7 @@ textarea {
   width: 100%;
   padding: 15px 16px;
   margin-bottom: 24px;
-  border: 2px solid #d0d9d4;
+  border: 2px solid #d0d9d4 !important;
   border-radius: 4px;
 }
 
