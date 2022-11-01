@@ -40,6 +40,10 @@ body * {
   display: inline-grid;
 }
 
+.border-none {
+  border: none;
+}
+
 p,
 h1,
 h2,
@@ -283,6 +287,36 @@ h6 {
 
 .about-text .categories {
   margin: 8px 0;
+}
+
+/* contact-form */
+.contact-me {
+  padding: 0 24px;
+}
+
+.my-contact-form {
+  width: 100%;
+}
+
+.my-contact-form input,
+textarea {
+  width: 100%;
+  padding: 15px 16px;
+  margin-bottom: 24px;
+  border: 2px solid #d0d9d4 !important;
+  border-radius: 4px;
+}
+
+.my-contact-form input[type="text"]:focus,
+input[type="email"]:focus,
+textarea:focus {
+  border: 2px solid var(--success);
+  outline: none;
+}
+
+input:invalid,
+textarea:invalid {
+  border: 2px solid red;
 }
 
 /* grids */
