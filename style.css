@@ -307,11 +307,12 @@ textarea {
   border-radius: 4px;
 }
 
-/* collaboration start */
-
-/* you will add this follwing part into the file */
-
-/* collaboration end */
+.my-contact-form input[type="text"]:focus,
+input[type="email"]:focus,
+textarea:focus {
+  border: 2px solid var(--success) !important;
+  outline: none;
+}
 
 /* grids */
 
