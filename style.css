@@ -310,8 +310,13 @@ textarea {
 .my-contact-form input[type="text"]:focus,
 input[type="email"]:focus,
 textarea:focus {
-  border: 2px solid var(--success) !important;
+  border: 2px solid var(--success);
   outline: none;
+}
+
+input:invalid,
+textarea:invalid {
+  border: 2px solid red;
 }
 
 /* grids */
