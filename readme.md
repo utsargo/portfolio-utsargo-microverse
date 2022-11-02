@@ -11,7 +11,7 @@ https://flexy-framework.github.io/
 
 ### Desktop design
 
-> This is the desktop version of the site. Implemented media querries for responsiveness. All codes are refractored for desktop compatibiliy. 
+> This is the desktop version of the site. Implemented media queries for responsiveness. All codes are refactored for desktop compatibility. 
 - Target viewport: 1440px
 
 
