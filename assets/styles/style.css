@@ -402,14 +402,6 @@ ul {
   background-repeat: no-repeat;
 }
 
-.contact-me .section-heading {
-  transition: 500ms ease;
-}
-
-.contact-me .section-heading:hover {
-  transform: translateX(10px);
-}
-
 .my-contact-form {
   width: 100%;
   display: flex;
@@ -441,6 +433,14 @@ textarea:invalid {
 .mobile-form {
   width: 100%;
   height: auto;
+}
+
+.contact-me .section-heading {
+  transition: 500ms ease;
+}
+
+.contact-me .section-heading:hover {
+  transform: translateX(10px);
 }
 
 @media screen and (max-width: 640px) {
