@@ -273,6 +273,10 @@ ul {
   height: 252px;
   object-fit: cover;
   object-position: center;
+  transition: 500ms ease;
+}
+.thumbnail:hover{
+  transform: scale(1.1);
 }
 
 .portfolio-text,
