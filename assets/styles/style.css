@@ -85,6 +85,10 @@ p {
 }
 
 /* colors */
+ul {
+  padding: 0;
+}
+
 .success {
   color: #36b37e;
 }
@@ -432,6 +436,10 @@ textarea:invalid {
     display: none;
   }
 
+  .mobile-nav {
+    display: none;
+  }
+
   .desktop-form fieldset {
     display: flex;
     gap: 24px;
@@ -465,7 +473,9 @@ textarea:invalid {
   .navbar .desktop-nav ul li a {
     padding: 10px;
     text-decoration: none;
-    color: #172b4d;
+    color: #344563;
+    font-size: 15px;
+    font-weight: 600;
   }
 
   .navbar .desktop-nav ul li a:hover {
