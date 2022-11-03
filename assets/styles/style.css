@@ -513,7 +513,6 @@ textarea:invalid {
 
   .about-me {
     background-image: url("../images/about-desktop.png");
-    padding: 0 10%;
     background-position: top center;
   }
 
