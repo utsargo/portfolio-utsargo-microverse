@@ -275,7 +275,8 @@ ul {
   object-position: center;
   transition: 500ms ease;
 }
-.thumbnail:hover{
+
+.thumbnail:hover {
   transform: scale(1.1);
 }
 
@@ -347,9 +348,10 @@ ul {
   text-decoration: none;
   cursor: pointer;
 }
+
 .button:hover {
-background-color: #008552;
-transition: 300ms ease;
+  background-color: #008552;
+  transition: 300ms ease;
 }
 
 .btn-primary {
@@ -398,6 +400,14 @@ transition: 300ms ease;
   background-image: url("../images/illustration-contact-formfooter-mobile.png");
   background-position: right -50px bottom 0;
   background-repeat: no-repeat;
+}
+
+.contact-me .section-heading {
+  transition: 500ms ease;
+}
+
+.contact-me .section-heading:hover {
+  transform: translateX(10px);
 }
 
 .my-contact-form {
