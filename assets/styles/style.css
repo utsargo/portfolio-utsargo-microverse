@@ -343,6 +343,10 @@ ul {
   text-decoration: none;
   cursor: pointer;
 }
+.button:hover {
+background-color: #008552;
+transition: 200ms ease;
+}
 
 .btn-primary {
   background-color: #36b37f;
