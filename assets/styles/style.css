@@ -107,6 +107,7 @@ ul {
   justify-content: space-between;
   align-items: center;
   position: fixed;
+  background-color: rgb(255 255 255 / 80%);
 }
 
 .site-title {
@@ -327,7 +328,7 @@ ul {
 .about-me {
   margin-top: 0;
   background-image: url("../images/about-me.png");
-  background-position: -59px -79px;
+  background-position: -49px -37px;
   object-fit: cover;
   padding: 64px 24px;
   background-repeat: no-repeat;
@@ -398,6 +399,10 @@ textarea:invalid {
 }
 
 @media screen and (min-width: 768px) {
+  .wrapper {
+    max-width: 768px;
+  }
+
   .welcome {
     background-image: url("../images/header-llustration-desktop.svg");
     justify-content: center;
@@ -419,6 +424,14 @@ textarea:invalid {
     column-gap: 24px;
     row-gap: 24px;
   }
+
+  .container {
+    padding: 80px 13.5%;
+  }
+
+  .footer-gap {
+    height: 225px;
+  }
 }
 
 @media screen and (max-width: 768px) {
@@ -432,6 +445,15 @@ textarea:invalid {
 }
 
 @media screen and (min-width: 1024px) {
+  .wrapper {
+    max-width: 1024px;
+  }
+
+  .separator {
+    margin-bottom: 48px;
+    background-color: transparent;
+  }
+
   .mobile-form {
     display: none;
   }
@@ -459,7 +481,6 @@ textarea:invalid {
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    background-color: rgb(255 255 255 / 80%);
   }
 
   .navbar .desktop-nav ul {
@@ -505,7 +526,6 @@ textarea:invalid {
 
   .contact-me {
     background-image: url("../images/footer-desktop.png");
-    padding: 0 10% 225px;
     display: grid;
     grid-template-columns: 40% 60%;
     align-items: start;
@@ -521,5 +541,11 @@ textarea:invalid {
   .social-links-footer {
     border-top: 1px solid #505f79;
     padding: 5px;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .wrapper {
+    max-width: 1440px;
   }
 }
