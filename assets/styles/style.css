@@ -190,6 +190,10 @@ ul {
   color: #36b37f;
 }
 
+.m-logo:hover {
+  filter: invert(88%) sepia(7%) saturate(4102%) hue-rotate(125deg) brightness(71%) contrast(89%);
+}
+
 .footer-mobile {
   display: flex;
   flex-direction: column;
