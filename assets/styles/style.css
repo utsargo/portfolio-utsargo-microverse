@@ -175,17 +175,18 @@ ul {
   justify-content: center;
   align-items: center;
   padding: 0;
+  margin: 0;
 }
 
-.social-links a {
+.social-links li a {
   font-size: 20px;
   text-decoration: none;
-  margin: 0 5px;
+  padding: 8px;
   color: #505f79;
   transition: 500ms ease;
 }
 
-.social-links a:hover {
+.social-links li a:hover {
   color: #36b37f;
 }
 
@@ -434,6 +435,12 @@ textarea:invalid {
   .footer-gap {
     height: 225px;
   }
+
+  hr {
+    height: 1px;
+    width: 100%;
+    background-color: #dfe1e6;
+  }
 }
 
 @media screen and (max-width: 768px) {
@@ -540,8 +547,7 @@ textarea:invalid {
   }
 
   .social-links-footer {
-    border-top: 1px solid #505f79;
-    padding: 5px;
+    padding: 16px;
   }
 }
 
