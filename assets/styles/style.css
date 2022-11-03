@@ -120,7 +120,7 @@ ul {
 }
 
 .site-title:hover {
-  color: #36b37e;
+  color: #36b37f;
 }
 
 .wrapper {
@@ -159,7 +159,7 @@ ul {
 .separator {
   width: 48px;
   height: 4px;
-  background-color: #36b37e;
+  background-color: #36b37f;
   margin-bottom: 58px;
 }
 
@@ -186,7 +186,7 @@ ul {
 }
 
 .social-links a:hover {
-  color: #36b37e;
+  color: #36b37f;
 }
 
 .down-arrow {
@@ -206,7 +206,7 @@ ul {
 
 .down-arrow:hover {
   color: white;
-  background-color: #36b37e;
+  background-color: #36b37f;
 }
 
 /* section recent-works */
@@ -286,7 +286,7 @@ ul {
 
 .about-me .category {
   background-color: white;
-  color: #36b37e;
+  color: #36b37f;
 }
 
 .portfolio-item .category {
@@ -295,12 +295,12 @@ ul {
 }
 
 .about-me .category:hover {
-  background-color: #36b37e;
+  background-color: #36b37f;
   color: white;
 }
 
 .portfolio-item .category:hover {
-  background-color: #36b37e;
+  background-color: #36b37f;
   color: white;
 }
 
@@ -314,15 +314,17 @@ ul {
 }
 
 .btn-primary {
-  background-color: #36b37e;
+  background-color: #36b37f;
   color: white;
   transition: 500ms ease;
 }
 
 .btn-primary:hover {
-  background-color: #ebf0ee;
-  border: 2px solid #505f79;
-  color: #172b4d;
+  background-color: #36b37f;
+}
+
+.btn-primary:active {
+  background-color: #008552;
 }
 
 .about-me {
@@ -378,7 +380,7 @@ textarea {
 .my-contact-form input[type="text"]:focus,
 input[type="email"]:focus,
 textarea:focus {
-  border: 2px solid #36b37e;
+  border: 2px solid #36b37f;
   outline: none;
 }
 
@@ -500,7 +502,7 @@ textarea:invalid {
   }
 
   .navbar .desktop-nav ul li a:hover {
-    color: #36b37e;
+    color: #36b37f;
   }
 
   .cards-showcase {
