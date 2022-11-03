@@ -102,6 +102,7 @@ p {
   width: 100%;
   justify-content: space-between;
   align-items: center;
+  position: fixed;
 }
 
 .site-title {
@@ -414,8 +415,32 @@ textarea:invalid {
     column-gap: 24px;
     row-gap: 24px;
   }
+}
 
-  .mobile-nav {
+@media screen and (max-width: 768px) {
+  .desktop-form {
+    display: none;
+  }
+
+  .desktop-nav {
+    display: none;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .mobile-form {
+    display: none;
+  }
+
+  .desktop-form fieldset {
+    display: flex;
+    gap: 24px;
+    border: none;
+    padding: 0;
+    width: 100%;
+  }
+
+  .site-title {
     display: none;
   }
 
@@ -427,10 +452,6 @@ textarea:invalid {
     justify-content: center;
     align-items: center;
     background-color: rgb(255 255 255 / 80%);
-  }
-
-  .navbar .site-title {
-    display: none;
   }
 
   .navbar .desktop-nav ul {
@@ -449,26 +470,6 @@ textarea:invalid {
 
   .navbar .desktop-nav ul li a:hover {
     color: #36b37e;
-  }
-}
-
-@media screen and (max-width: 768px) {
-  .desktop-form {
-    display: none;
-  }
-}
-
-@media screen and (min-width: 1024px) {
-  .mobile-form {
-    display: none;
-  }
-
-  .desktop-form fieldset {
-    display: flex;
-    gap: 24px;
-    border: none;
-    padding: 0;
-    width: 100%;
   }
 
   .cards-showcase {
