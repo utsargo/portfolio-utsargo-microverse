@@ -1,6 +1,11 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
 # Portfolio Website Project
+
+### Deployment
+**The site has been deployed**
+**Live link:**: https://portfolio.utsargo.tech
+
 ### Mobile design (First milestone)
 
 > This is the first milestone of the portfolio website project. This is not an actual mobile website. It's just a mobile-like mock-up based on the figma design we were provided. The project will grow to an actual portfolio website someday. 
